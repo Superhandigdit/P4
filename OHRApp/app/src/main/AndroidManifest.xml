@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cherie.ohrapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TeacherLogin"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".StudentLogin" />
+        <activity android:name=".EnterClassCode" />
+        <activity android:name=".HomeScreen"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".LesGoedSlecht" />
+        <activity android:name=".LijstRedenenPos" />
+        <activity android:name=".LijstRedenenNeg" />
+        <activity android:name=".AndereRedenPos" />
+        <activity android:name=".AndereRedenNeg" />
+        <activity android:name=".Verzonden" />
+        <activity android:name=".SelectClass" />
+        <activity android:name=".Comments" />
+        <activity android:name=".Graphs"></activity>
+    </application>
+
+</manifest>

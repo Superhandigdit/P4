@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">OHR App</string>
+    <string name="welcome_student">Welcome Student!</string>
+    <string name="username">Username</string>
+    <string name="remaining_attempts_3">Remaining Attempts: 3</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    
+    <string-array name="Classes">
+        <item>Analyse 1</item>
+        <item>Analyse 2</item>
+        <item>Analyse 3</item>
+        <item>Analyse 4</item>
+        <item>Development 1</item>
+        <item>Development 2</item>
+        <item>Development 3</item>
+        <item>Development 4</item>
+    </string-array>
+</resources>
